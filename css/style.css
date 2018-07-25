@@ -1,0 +1,79 @@
+img {
+  position: absolute;
+  top:28%;
+  left:37%;
+}
+
+#top-buttons p {
+  background-color: inherit;
+  border: none;
+  font: Helvetica;
+  font-size: 15px;
+  color: #333333;
+  padding: 15px;
+  display: inline-block;
+}
+
+#top-buttons #left {
+  float: left;
+}
+
+#top-buttons #right {
+  float: right;
+}
+
+ul {
+  background-color: #f2f2f2;
+  border: none;
+  font: Helvetica;
+  font-size: 15px;
+  color: grey;
+  /*padding: 20px;
+  padding-bottom: 2px;*/
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /*display: inline-block;*/
+}
+
+li {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+#left li {
+  float: left;
+}
+
+#right li {
+  float: right;
+}
+
+#middle-buttons input{
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  padding: 6px;
+  border: solid;
+  border-color: #d9d9d9;
+  border-width: 1px;
+  height: 25px;
+  width: 550px;
+}
+
+/*#bottom-buttons #left {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+#bottom-buttons #right {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}*/
