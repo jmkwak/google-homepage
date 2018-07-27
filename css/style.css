@@ -1,11 +1,11 @@
 html {
-  font: arial;
-  font-size: 15px;
+  font-family: arial;
+  font-size: 13px;
 }
 
 img {
   position: absolute;
-  top:28%;
+  top:24%;
   left:37%;
 }
 
@@ -27,6 +27,7 @@ img {
   text-align: center;
   padding: 15px;
   padding-top: 12px;
+  padding-right: 10px;
 }
 
 #top-buttons #left li {
@@ -58,13 +59,21 @@ img {
   display: inline-block;
   padding: 10px;
   padding-top: 15px;
-  left: 67.3%;
+  padding-right: 7px;
+  left: 69%;
 }
 
+.top-buttons {
+  color: #333333;
+  text-decoration: none;
+}
 
 #bottom-buttons {
   background-color: #f2f2f2;
   border: none;
+  border-top: solid;
+  border-top-width: thin;
+  border-top-color: #d9d9d9;
   color: grey;
   /*padding: 20px;
   padding-bottom: 2px;*/
@@ -80,8 +89,10 @@ img {
 #bottom-buttons li {
   display: block;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   padding-bottom: 5px;
+  padding-right: 15px;
+  padding-top: 7px;
 }
 
 #bottom-buttons #left li {
@@ -90,11 +101,17 @@ img {
 
 #bottom-buttons #right li {
   float: right;
+  padding-right: 20px;
+}
+
+.bottom-buttons {
+  color: grey;
+  text-decoration: none;
 }
 
 #middle-buttons input{
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 28%;
   padding: 6px;
   border: solid;
@@ -102,4 +119,42 @@ img {
   border-width: 1px;
   height: 25px;
   width: 550px;
+  box-shadow: 4px 4px 4px #e6e6e6;
+}
+
+#middle-buttons .mid-buttons {
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#search-link {
+  position: absolute;
+  display: inline-block;
+  overflow: auto;
+  padding: 13px;
+  padding-left:17px;
+  padding-right: 17px;
+  background-color: #f2f2f2;
+  text-align: center;
+  top: 54%;
+  left: 39.3%;
+}
+
+#lucky-link {
+  position: absolute;
+  display: inline-block;
+  overflow: auto;
+  padding: 13px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+  top: 54%;
+  left: 49.7%;
+}
+
+#middle-buttons img {
+  top: 46%;
+  left: 69%;
 }
